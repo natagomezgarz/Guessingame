@@ -1,4 +1,0 @@
-files.txt
-guessinggame.sh
-makefile
-README.md

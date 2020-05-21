@@ -1,9 +1,4 @@
-function files {
-	touch files.txt
-	ls > files.txt
-	a=$(egrep "$" files.txt | wc -l)
-}
-files
+a=$( ls | wc -l)
 echo "Try to guess how many files does this directory has (without counting the hiding files):"
 read element
 function guess {
